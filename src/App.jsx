@@ -75,7 +75,7 @@ footer ul li {
 @media(max-width: 570px) {
     footer {
         flex-direction: column;
-        gap: 10px;
+        gap: 10px; 
     }
 }
 
@@ -137,7 +137,7 @@ function App() {
     return (
         <AppStyled>
             <div className="title">
-                <h1>TOP TEEN SONGS</h1>
+                <h1>TOP TEN SONGS</h1>
                 {
                     !credential ? (
                         <button onClick={handleLogin}>Login</button>
