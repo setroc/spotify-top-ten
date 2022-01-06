@@ -83,7 +83,7 @@ footer ul li {
 
 const CLIENT_ID = '6bcfdc2cbb2d4b1ab915d9a45d3f5fda';
 const SPOTIFY_AUTHORIZE_ENDPOINT = "https://accounts.spotify.com/authorize";
-const REDIRECT_URL_AFTER_LOGIN = "http://localhost:3000/";
+const REDIRECT_URL_AFTER_LOGIN = "https://setroc.github.io/spotify-top-ten/";
 const SPACE_DELIMITER = "%20";
 const SCOPES = [
     // "user-read-currently-playing",
