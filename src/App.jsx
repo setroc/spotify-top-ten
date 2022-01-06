@@ -92,7 +92,7 @@ const SCOPES = [
     "user-top-read",
 ];
 const SCOPES_URL_PARAM = SCOPES.join(SPACE_DELIMITER);
-const URL = '	https://api.spotify.com/v1/me/top/tracks?limit=10';
+const URL = 'https://api.spotify.com/v1/me/top/tracks?limit=10';
 
 const getReturnedParamsFromSpotifyAuth = (hash) => {
     const stringAfterHashtag = hash.substring(1);
